@@ -7,15 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E127B1BD22D9EC3500AB4F92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E127B1BC22D9EC3500AB4F92 /* CoreGraphics.framework */; };
+		E127B1BF22D9EC3E00AB4F92 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E127B1BE22D9EC3E00AB4F92 /* CoreLocation.framework */; };
+		E127B1C122D9EC5D00AB4F92 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E127B1C022D9EC5D00AB4F92 /* libc++.tbd */; };
+		E127B1C322D9EC6800AB4F92 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E127B1C222D9EC6800AB4F92 /* libsqlite3.0.tbd */; };
+		E127B1C522D9EC7100AB4F92 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E127B1C422D9EC7100AB4F92 /* OpenGLES.framework */; };
+		E127B1C722D9EC7700AB4F92 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E127B1C622D9EC7700AB4F92 /* QuartzCore.framework */; };
+		E127B1C922D9EC8000AB4F92 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E127B1C822D9EC8000AB4F92 /* Security.framework */; };
+		E127B1CB22D9EC8900AB4F92 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E127B1CA22D9EC8800AB4F92 /* SystemConfiguration.framework */; };
+		E127B1CD22D9EE4F00AB4F92 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E127B1CC22D9EE4F00AB4F92 /* mapapi.bundle */; };
 		E1C20FBF22D9DAD00014D1BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C20FBE22D9DAD00014D1BF /* AppDelegate.swift */; };
 		E1C20FC122D9DAD00014D1BF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C20FC022D9DAD00014D1BF /* FirstViewController.swift */; };
 		E1C20FC322D9DAD00014D1BF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C20FC222D9DAD00014D1BF /* SecondViewController.swift */; };
 		E1C20FC622D9DAD00014D1BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C20FC422D9DAD00014D1BF /* Main.storyboard */; };
 		E1C20FC822D9DADC0014D1BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C20FC722D9DADC0014D1BF /* Assets.xcassets */; };
 		E1C20FCB22D9DADC0014D1BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C20FC922D9DADC0014D1BF /* LaunchScreen.storyboard */; };
+		E1C20FD922D9DB440014D1BF /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C20FD322D9DB440014D1BF /* BaiduMapAPI_Base.framework */; };
+		E1C20FDA22D9DB440014D1BF /* BMKLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C20FD422D9DB440014D1BF /* BMKLocationKit.framework */; };
+		E1C20FDB22D9DB440014D1BF /* BaiduMapAPI_Cloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C20FD522D9DB440014D1BF /* BaiduMapAPI_Cloud.framework */; };
+		E1C20FDC22D9DB440014D1BF /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C20FD622D9DB440014D1BF /* BaiduMapAPI_Search.framework */; };
+		E1C20FDD22D9DB440014D1BF /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C20FD722D9DB440014D1BF /* BaiduMapAPI_Map.framework */; };
+		E1C20FDE22D9DB440014D1BF /* BaiduMapAPI_Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C20FD822D9DB440014D1BF /* BaiduMapAPI_Utils.framework */; };
+		E1C20FE122D9DB510014D1BF /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C20FDF22D9DB510014D1BF /* libssl.a */; };
+		E1C20FE222D9DB510014D1BF /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C20FE022D9DB510014D1BF /* libcrypto.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E127B1BC22D9EC3500AB4F92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E127B1BE22D9EC3E00AB4F92 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E127B1C022D9EC5D00AB4F92 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E127B1C222D9EC6800AB4F92 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		E127B1C422D9EC7100AB4F92 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E127B1C622D9EC7700AB4F92 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E127B1C822D9EC8000AB4F92 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E127B1CA22D9EC8800AB4F92 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E127B1CC22D9EE4F00AB4F92 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = Frameworks/BaiduMapAPI_Map.framework/mapapi.bundle; sourceTree = "<group>"; };
+		E127B1CE22D9EE9800AB4F92 /* BMKSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BMKSwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		E1C20FBB22D9DAD00014D1BF /* Ladder2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ladder2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C20FBE22D9DAD00014D1BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1C20FC022D9DAD00014D1BF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +51,14 @@
 		E1C20FC722D9DADC0014D1BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1C20FCA22D9DADC0014D1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1C20FCC22D9DADC0014D1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C20FD322D9DB440014D1BF /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = Frameworks/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		E1C20FD422D9DB440014D1BF /* BMKLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BMKLocationKit.framework; path = Frameworks/BMKLocationKit.framework; sourceTree = "<group>"; };
+		E1C20FD522D9DB440014D1BF /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Cloud.framework; path = Frameworks/BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		E1C20FD622D9DB440014D1BF /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = Frameworks/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		E1C20FD722D9DB440014D1BF /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = Frameworks/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		E1C20FD822D9DB440014D1BF /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Utils.framework; path = Frameworks/BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		E1C20FDF22D9DB510014D1BF /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = Frameworks/thirdlibs/libssl.a; sourceTree = "<group>"; };
+		E1C20FE022D9DB510014D1BF /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = Frameworks/thirdlibs/libcrypto.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +66,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E127B1CB22D9EC8900AB4F92 /* SystemConfiguration.framework in Frameworks */,
+				E127B1C922D9EC8000AB4F92 /* Security.framework in Frameworks */,
+				E127B1C722D9EC7700AB4F92 /* QuartzCore.framework in Frameworks */,
+				E127B1C522D9EC7100AB4F92 /* OpenGLES.framework in Frameworks */,
+				E127B1C322D9EC6800AB4F92 /* libsqlite3.0.tbd in Frameworks */,
+				E127B1C122D9EC5D00AB4F92 /* libc++.tbd in Frameworks */,
+				E127B1BF22D9EC3E00AB4F92 /* CoreLocation.framework in Frameworks */,
+				E127B1BD22D9EC3500AB4F92 /* CoreGraphics.framework in Frameworks */,
+				E1C20FE122D9DB510014D1BF /* libssl.a in Frameworks */,
+				E1C20FE222D9DB510014D1BF /* libcrypto.a in Frameworks */,
+				E1C20FD922D9DB440014D1BF /* BaiduMapAPI_Base.framework in Frameworks */,
+				E1C20FDA22D9DB440014D1BF /* BMKLocationKit.framework in Frameworks */,
+				E1C20FDB22D9DB440014D1BF /* BaiduMapAPI_Cloud.framework in Frameworks */,
+				E1C20FDC22D9DB440014D1BF /* BaiduMapAPI_Search.framework in Frameworks */,
+				E1C20FDD22D9DB440014D1BF /* BaiduMapAPI_Map.framework in Frameworks */,
+				E1C20FDE22D9DB440014D1BF /* BaiduMapAPI_Utils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +91,11 @@
 		E1C20FB222D9DAD00014D1BF = {
 			isa = PBXGroup;
 			children = (
+				E127B1CE22D9EE9800AB4F92 /* BMKSwiftDemo-Bridging-Header.h */,
+				E127B1CC22D9EE4F00AB4F92 /* mapapi.bundle */,
 				E1C20FBD22D9DAD00014D1BF /* Ladder2 */,
 				E1C20FBC22D9DAD00014D1BF /* Products */,
+				E1C20FD222D9DB440014D1BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +119,29 @@
 				E1C20FCC22D9DADC0014D1BF /* Info.plist */,
 			);
 			path = Ladder2;
+			sourceTree = "<group>";
+		};
+		E1C20FD222D9DB440014D1BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E127B1CA22D9EC8800AB4F92 /* SystemConfiguration.framework */,
+				E127B1C822D9EC8000AB4F92 /* Security.framework */,
+				E127B1C622D9EC7700AB4F92 /* QuartzCore.framework */,
+				E127B1C422D9EC7100AB4F92 /* OpenGLES.framework */,
+				E127B1C222D9EC6800AB4F92 /* libsqlite3.0.tbd */,
+				E127B1C022D9EC5D00AB4F92 /* libc++.tbd */,
+				E127B1BE22D9EC3E00AB4F92 /* CoreLocation.framework */,
+				E127B1BC22D9EC3500AB4F92 /* CoreGraphics.framework */,
+				E1C20FE022D9DB510014D1BF /* libcrypto.a */,
+				E1C20FDF22D9DB510014D1BF /* libssl.a */,
+				E1C20FD322D9DB440014D1BF /* BaiduMapAPI_Base.framework */,
+				E1C20FD522D9DB440014D1BF /* BaiduMapAPI_Cloud.framework */,
+				E1C20FD722D9DB440014D1BF /* BaiduMapAPI_Map.framework */,
+				E1C20FD622D9DB440014D1BF /* BaiduMapAPI_Search.framework */,
+				E1C20FD822D9DB440014D1BF /* BaiduMapAPI_Utils.framework */,
+				E1C20FD422D9DB440014D1BF /* BMKLocationKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1C20FCB22D9DADC0014D1BF /* LaunchScreen.storyboard in Resources */,
+				E127B1CD22D9EE4F00AB4F92 /* mapapi.bundle in Resources */,
 				E1C20FC822D9DADC0014D1BF /* Assets.xcassets in Resources */,
 				E1C20FC622D9DAD00014D1BF /* Main.storyboard in Resources */,
 			);
@@ -205,6 +283,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -265,6 +344,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -288,13 +368,24 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FU6Q4Q7NMF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = Ladder2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/thirdlibs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.seu.cx.Ladder2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BMKSwiftDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -306,13 +397,24 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FU6Q4Q7NMF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = Ladder2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/thirdlibs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.seu.cx.Ladder2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BMKSwiftDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
